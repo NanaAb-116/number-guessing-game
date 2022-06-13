@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* navbar section */
+.AJ a {
+  text-decoration: none;
+}
+
+.navbar {
+  padding: 1rem;
+}
+
+.hamburgerBars {
+  color: white;
+  font-size: 1.5rem;
+}
+.nav_links ul {
+  display: flex;
+}
+
+.single_link {
+  list-style-type: none;
+}
+.single_link a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.nav_socials a {
+  color: rgb(255, 255, 255);
+  font-size: large;
+}
+/* end of navbar section  */
+
+/* home section  */
+.home_section {
+  background-color: #0a2c2d;
+}
+.home {
+  height: 100vh;
+  background-attachment: fixed;
+  background-image: url('/images/photo_2022-05-11_19-26-46.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-width: 100%;
+}
+.contact_section {
+  background-color: #82320a;
+}
+.news_section {
+  background-color: #0f0f0f;
+}
+.bio_section {
+  background-color: #040e22;
+}
+.tour_section {
+  background-color: #022441;
+}
+.contact {
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-image: url(/images/NANA\ AJ\ train\ of\ thoughts\ cover\ shoot2625\ Kopie.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.bio {
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-image: url(/images/Cover_option_01TRAIN.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.news {
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-image: url(/images/WhatsApp\ Image\ 2022-05-12\ at\ 4.29.17\ PM.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 50%;
+}
+.tour {
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-image: url(/images/gif2.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.main_sec {
+  margin-top: 70vh;
+}
+.contact_sec {
+  margin-top: 70vh;
+}
+.bio_sec {
+  margin-top: 70vh;
+}
+.tour_sec {
+  margin-top: 70vh;
+}
+.my_btn {
+  overflow: visible;
+  width: 15rem;
+}
+
+.newsletter-section {
+  background-color: #010600;
+}
+.newsletter {
+  min-height: 100vh;
+  background: url(/images/photo_2022-05-11_19-27-19.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.newsletterform {
+  padding-top: 60vh;
+}
+.input_email {
+  border: none;
+  background-color: white;
+  width: 20rem;
+  padding: 1.5rem;
+}
+.footer {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+}
+.input_signUp {
+  background-color: transparent;
+  color: white;
+  padding: 1.5rem;
+  border: 1px solid white;
+}
+.input_signUp:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
+}
+.footer_socials a {
+  color: rgb(0, 0, 0);
+  font-size: large;
+}
+.bookings p {
+  color: #82320a;
+  text-decoration: underline;
+  display: inline;
+}
+.bookings a {
+  color: #82320a;
+}
+#message,
+#mail,
+#lname,
+#fname {
+  background-color: rgb(245, 245, 245);
+  border: 1px solid rgba(151, 151, 151, 0.404);
+  margin-bottom: 0.5rem;
+}
+
+#lname,
+#fname {
+  width: 15rem;
+  height: 2.5rem;
+  padding: 1rem;
+}
+#mail {
+  width: 30rem;
+  height: 2.5rem;
+  padding: 1rem;
+}
+#message {
+  width: 30rem;
+  padding: 1rem;
+}
+.lname_input {
+  padding-left: 10.5rem;
+}
+.contact_form {
+  padding-top: 5rem;
+}
+.contact_form_send {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid rgb(0, 0, 0);
+}
+.contact_form_send:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+}
+.read-more {
+  text-decoration: underline;
+  color: black;
+}
+.read-more:hover {
+  color: black;
+}
+.big {
+  display: block;
+}
+.small {
+  display: none;
+}
+@media all and (max-width: 768px) {
+  .main_sec {
+    margin-top: 15vh;
+  }
+}
+
+@media all and (max-width: 530px) {
+  #lname,
+  #fname,
+  #mail,
+  #message {
+    width: 22rem;
+    height: 2.5rem;
+  }
+  .main_sec {
+    margin-top: 10vh;
+  }
+  .home {
+    height: 75vh;
+    background-attachment: scroll;
+  }
+  .contact {
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .bio {
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .news {
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .tour {
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .newsletter {
+    background-attachment: scroll;
+  }
+}
+@media all and (max-width: 1000px) {
+  .home {
+    background-attachment: scroll;
+  }
+  .contact {
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .bio {
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .news {
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .tour {
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .newsletter {
+    background-attachment: scroll;
+  }
+}
+@media all and (max-width: 767px) {
+  .big {
+    display: none;
+  }
+  .small {
+    display: block;
+  }
+}
